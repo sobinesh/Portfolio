@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Build files
+.next/
+out/
+
+# Local development
+.env*.local
+
+# OS specific
+.DS_Store
