@@ -47,7 +47,7 @@ sobinesh-blog/
 │   ├── Newsletter.tsx    # Email signup form (client)
 │   └── Footer.tsx        # Footer with links
 ├── data/
-│   └── content.ts        # ✏️  All your content — edit this file!
+│   └── content.ts   
 ├── next.config.js
 ├── tailwind.config.ts
 ├── tsconfig.json
