@@ -48,7 +48,7 @@ export default function ArticleClient({ post, prevPost, nextPost }: Props) {
       <main style={{ paddingTop:"72px" }}>
         {/* HEADER */}
         <header className="article-header-grid" style={{ position:"relative", overflow:"hidden" }}>
-          <div style={{ position:"absolute", top:-80, right:0, width:400, height:400, background:"radial-gradient(circle, rgba(200,240,60,0.04) 0%, transparent 70%)", pointerEvents:"none" }} />
+          <div style={{ position:"absolute", top:-80, right:0, width:"min(400px, 100%)", height:400, background:"radial-gradient(circle, rgba(200,240,60,0.04) 0%, transparent 70%)", pointerEvents:"none" }} />
           <div>
             <div style={{ marginBottom:"1.5rem", display:"flex", alignItems:"center", gap:"1rem", flexWrap:"wrap" }}>
               <span style={{ fontSize:"0.6rem", letterSpacing:"0.12em", textTransform:"uppercase", padding:"0.25rem 0.65rem", border:"1px solid" }}
@@ -90,7 +90,7 @@ export default function ArticleClient({ post, prevPost, nextPost }: Props) {
 
         {/* BODY */}
         <div className="article-body-grid">
-          <div style={{ borderRight:"1px solid #222", padding:"3rem 1.5rem" }} className="px-page">
+          <div style={{ borderRight:"1px solid #222", padding:"3rem 1.25rem" }} className="px-page">
             {post.content.map((section, i) => (
               <div key={i} style={{ marginBottom:"3rem", paddingBottom:"3rem", borderBottom: i < post.content.length-1 ? "1px solid #1a1a1a" : "none" }}>
                 <h2 style={{ fontFamily:"'Fraunces',serif", fontSize:"clamp(1.2rem,2.5vw,1.5rem)", fontWeight:700, color:"#e8e3d9", marginBottom:"1rem", lineHeight:1.2 }}>
@@ -130,7 +130,7 @@ export default function ArticleClient({ post, prevPost, nextPost }: Props) {
 
         {/* PREV / NEXT */}
         <div className="article-prev-next">
-          <div style={{ padding:"2rem 1.25rem", borderRight:"1px solid #222" }}>
+          <div style={{ padding:"2rem 1.25rem", borderRight:"1px solid #222" }} className="px-page">
             {prevPost && (
               <Link href={`/blog/${prevPost.slug}`} style={{ textDecoration:"none", display:"block" }}>
                 <div style={{ fontSize:"0.6rem", letterSpacing:"0.12em", textTransform:"uppercase", color:"#444", marginBottom:"0.6rem" }}>← Previous</div>
