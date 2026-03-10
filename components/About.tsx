@@ -61,10 +61,10 @@ export default function About() {
                 </div>
               ))}
               <div style={{ marginTop:"0.5rem", paddingTop:"1.5rem", borderTop:"1px solid #222" }}>
-                <div style={{ fontSize:"0.65rem", letterSpacing:"0.1em", textTransform:"uppercase", color:"#c8f03c", marginBottom:"0.2rem" }}>{education.period}</div>
-                <div style={{ fontSize:"0.85rem", color:"#e8e3d9", fontWeight:500 }}>{education.degree}</div>
-                <div style={{ fontSize:"0.72rem", color:"#6b6860", marginBottom:"0.1rem" }}>{education.institution}</div>
-                <div style={{ fontSize:"0.7rem", color:"#c8f03c" }}>CGPA: {education.cgpa}</div>
+                <div style={{ fontSize:"0.65rem", letterSpacing:"0.1em", textTransform:"uppercase", color:"#c8f03c", marginBottom:"0.2rem" }}>{education[0].period}</div>
+                <div style={{ fontSize:"0.85rem", color:"#e8e3d9", fontWeight:500 }}>{education[0].degree}</div>
+                <div style={{ fontSize:"0.72rem", color:"#6b6860", marginBottom:"0.1rem" }}>{education[0].school}</div>
+                <div style={{ fontSize:"0.7rem", color:"#c8f03c" }}>{education[0].detail}</div>
               </div>
             </div>
 

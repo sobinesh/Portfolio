@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="5" fill="#0d0d0d"/>
+  <!-- Left bracket -->
+  <path d="M13 7 L7 16 L13 25" stroke="#c8f03c" stroke-width="2.5" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- Right bracket -->
+  <path d="M19 7 L25 16 L19 25" stroke="#c8f03c" stroke-width="2.5" fill="none" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

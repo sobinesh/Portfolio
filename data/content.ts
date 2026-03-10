@@ -8,6 +8,7 @@ export const profile = {
   github: "https://github.com/sobinesh",
   hackerrank: "https://www.hackerrank.com/profile/sobinesh",
   leetcode: "https://leetcode.com/u/sobinesh/",
+  portfolio: "https://sobinesh.netlify.app/",
   summary:
     "Software Developer with strong coding skills and a passion for leveraging technology to solve real-world problems. Quick learner with proven analytical and problem-solving abilities.",
   bio: "Full-stack .NET developer building enterprise-grade cross-platform applications with .NET MAUI, ASP.NET, and Azure. I work across the entire stack — from MAUI mobile UIs to REST APIs to cloud-backed data pipelines.",
