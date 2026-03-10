@@ -503,7 +503,7 @@ export const experience = [
     ],
   },
   {
-    period: "Nov 2023 – Mar 2024",
+    period: "Oct 2023 – Apr 2024",
     role: "Frontend Intern",
     company: "RexCoders · Nagercoil",
     bullets: [
